@@ -17,7 +17,7 @@ anio_nacimiento = IntVar()
 
 
 #generación de widgets
-#peso
+#nombre
 etiqueta_nombre = Label(ventana, text='Nombre:')
 entrada_nombre = Entry(ventana, textvariable=nombre)
 etiqueta_nombre.grid(row=1, column=1)
